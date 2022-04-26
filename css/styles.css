@@ -1,0 +1,56 @@
+:root {
+  --main-color: #ffffff;
+}
+
+/*==============global style reset============= */
+body {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  width: 1440px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/*===================general==================== */
+.container {
+  outline: 1px solid rgb(17, 0, 255);
+  width: 1260px;
+  margin: 0 auto;
+}
+/*===================header==================== */
+.page-header {
+  padding: 29px 0 28px 0;
+  background-color: #cf0063;
+}
+.page-header-container {
+  padding: 0 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-header-list {
+  display: flex;
+}
+.page-header-item:not(:last-child) {
+  margin-right: 30px;
+}
+.page-header-link {
+  font-size: 15px;
+  line-height: 1.33;
+  color: var(--main-color);
+}
